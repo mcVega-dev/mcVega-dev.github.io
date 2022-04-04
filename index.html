@@ -1,26 +1,128 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-</head>
+<html>
 <body>
-    <h1>Hello, world! holllllla</h1>
+    <p>
+        <center> <h1>Proyecto Integrador Etapa 1 y 2</h1> </center><h1>
+    </p>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <p>
+        <h1>Etapa 1</h1>
+    </p>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+    <p><h2>Introducción E1</h2></p>
+    <p>
+        El objetivo de esta actividad es identificar una necesidad o una area de mejora
+        en nuestro lugar de trabajo para poder implementar las ventajas del web service
+        y poder optimizar procesos que se llevan a cabo para ofrecer un mejor servicio
+        en este caso.
+    </p>
+    <p><h2>Desarrollo E1</h2></p>
+    <p>
+        Actualmente laboro en una empresa de telecomunicaciones, en el area de
+        control vehicular, donde se maneja una flota vehicular de 3000 unidades a nivel
+        nacional, sin embargo, un area de oportunidad que observo dentro de la
+        empresa, es el seguimiento oportuno de los diferentes ramos de esta area, como
+        lo son, el seguimiento a siniestros en aseguradoras, tramites vehiculares, pago
+        de facturas a proveedores, etc. A pesar de que se maneja un proceso interno
+        para el seguimiento, en ocasiones la cantidad de solicitudes que se procesan por
+        correo electrónico sobre pasan al personal destinado para esta actividad. Es por
+        ello por lo que es necesario implementar un proceso integrando la tecnología
+        web service y así brindar un mejor seguimiento en los diferentes servicios.
+        Para este proceso se propone crear una página web donde las diferentes áreas
+        puedan levantar una solicitud de requerimiento, estas sean procesadas y
+        enviadas al responsable de gestionar las solicitudes ya sea por siniestros,
+        tramites vehiculares y pago de facturas, etc. y se genere un ticket con un folio de
+        seguimiento y este puede ser consultado desde la página web.
+    </p>
+
+    <p>
+        <center><h2>Metodología de creación de un web service:</h2></center>
+
+        <center><img src="https://i.ibb.co/Mg20Ryv/1.jpg"></center>
+
+    <p>
+        De acuerdo a los requerimientos de la empresa, se opta por la arquitectura SOAP
+        ya que se implementarán procesos con servicios que trabajarán dentro del
+        mismo dominio y servidor, garantizando el consumo mínimo de ancho de banda
+        y cantidad de latencia.
+    </p>
+
+    <p><h2>Conclusión E1</h2></p>
+    <p>
+        A manera de conclusión, se aprendió con esta actividad a diferenciar los tipos de
+        web service y elegir el correcto para la solución de problemáticas dentro de
+        nuestro entorno laboral en base a los requerimientos de esta. En esta ocasión
+        yo elegí el método SOAP para poder dar seguimiento a los subprocesos del area
+        donde laboro. Considero que es una excelente propuesta ya que tener un
+        proceso automatizado donde el usuario registre su solicitud y estas se redirijan
+        automáticamente a cada responsable, estos tendrán un mejor control de las
+        solicitudes y podrán atender en tiempo y forma cada solicitud enviada. Así mismo
+        el usuario podrá consultar el avance y historial del proceso de una manera
+        automática y eficiente sin necesidad de consultarlo directamente con el
+        responsable. Esto beneficia directamente a la empresa en el desempeño de los
+        trabajadores y el seguimiento adecuado a los activos en este caso la flota
+        vehicular. Poniendo un ejemplo, en el seguimiento a
+        los siniestros con
+        aseguradoras, conocer el proceso de la reparación o dictamen del taller en
+        tiempo y forma para determinar las acciones a seguir ya sea el ir por la unidad y
+        ponerla en operación o iniciar el proceso de una pérdida total.
+    </p>
+    <p>
+        <h1>Etapa 2</h1>
+    </p>
+    <p><h2>Introducción E2</h2></p>
+    <p>
+        El objetivo de esta actividad es integrar los elementos de los servicios web definiendo el diseño y pruebas a realizar para el funcionamiento del servicio a desarrollar.
+    </p>
+
+    <p><h2>Desarrollo E2</h2></p>
+    <p>
+        Definición de fuentes de datos a utilizar
+        Para este proyecto se ocuparán fuentes de datos internas las cuales se obtendrán y se alimentarán mediante los registros, documentos de las unidades, facturas, etc. Esta información se alimentará por medio del personal a cargo de realizar los registros de las unidades. Estos datos almacenados en bases de datos de sistemas de información transaccionales internos estarán asociados a los sistemas de información SQL.
+        Procesos de extracción, transformación y carga de datos
+        Este proceso está compuesto con herramientas tecnológicas centradas en la extracción, transformación, y carga de los datos con propósitos analíticos (ETL). Los datos de interés que se encuentran disponibles en las bases de datos de los sistemas de información y en otras fuentes internas deben ser extraídos y luego transformados, de acuerdo con las necesidades de la empresa, para finalmente ser cargados en un lugar especial para su posterior uso. La función principal de este proceso es utilizar el control de la extracción de datos y automatización ya que esto disminuirá el tiempo empleado en el descubrimiento de procesos minimizando el margen de error y permitiendo mayor flexibilidad, haciendo un uso efectivo del hardware, software, datos y recursos humanos existentes. Un ejemplo de ello son los registros de mantenimientos y pagos de facturas de cada unidad, ya que el implementar un proceso de registro se podrá obtener el historial de la unidad de una manera mas flexible y por ende facilitar la toma de decisiones.
+
+
+        Mecanismos e infraestructura para el almacenamiento y gestión de datos
+        Los datos extraídos serán almacenados en bases de datos conocidas como bodega de datos (Data Warehouse) Data Marts o Data Lakes. Una bodega de datos es una arquitectura de almacenamiento de información diseñada para mantener datos extraídos de sistemas transaccionales y bodegas de datos operacionales. Estas bases están orientadas principalmente al almacenamiento, la consulta y el análisis de datos históricos provenientes de bases de datos relacionales. Es por ello por lo que este tipo de bases de datos es la ideal para el proyecto a implementar, ya que se concentraran diversos datos de diferentes áreas y se enlazaran al momento de realizar un cubo de datos o cubo OLAP.
+
+        Interfaz de usuario a utilizar
+        Se ocupará la interfaz de usuario basada en menús, así el usuario podrá seleccionar y navegar de un lugar a otro eligiendo las diferentes opciones que tendrá el software. Esto facilitara la interacción haciendo que el software sea intuitivo.
+        Mecanismos de seguridad
+        Los mecanismos de seguridad a implementar son los siguientes:<br>
+    </p>
+    <p>
+        •	Identificación y autentificación: este mecanismo nos ayudara a que se tenga un control de quien tiene acceso al sistema.<br>
+        •	Autorización: nos apoyaremos en este mecanismo para gestionar los permisos que tendrá cada usuario y delimitar las acciones que podrá realizar dentro del software.<br>
+
+    </p>
+
+    <p><h2>Conclusión E2</h2></p>
+    <p>
+        A manera de conclusión, con esta segunda etapa se aprendió la manera de integrar los distintos elementos necesarios para la composición de los servicios web. En el caso del proyecto la estructura para poder implementar los servicios a utilizar, desde donde se obtendrán los datos, la manera de como se gestionan, como se presentarán cuando se desee realizar una consulta y el mecanismo para su almacenamiento y gestión, así mismo como el tipo de interfaz a utilizar y el tipo de seguridad a utilizar para autentificar a los usuarios administrando los accesos y permisos de estos.
+    </p>
+
+    <p><h2>Referencias E2</h2></p>
+    <p>
+        IBM. (2021a, abril 20). Conceptos de seguridad: Identificación y autenticación. Identificación y autenticación. https://www.ibm.com/docs/es/ibm-mq/7.5?topic=ssfksj-7-5-0-com-ibm-mq-sec-doc-q009740--htm<br>
+        Rodríguez, A. R. (2019, 24 junio). Gestión de la información cuantitativa en las universidades. Gestión de la información cuantitativa en las universidades. https://estadisticaun.github.io/L_Conceptual/index.html<br>
+        Flores, J. (Productor). (22 de marzo de 2016). 01 02 Tipos de web services [archivo de Video]. Recuperado de https://www.youtube.com/watch?v=wSl6SvGvthg<br>
+        IBM. (2015). ¿Qué es un servicio web? Desarrollar soluciones de integración. https://www.ibm.com/docs/es/integration-bus/10.0?topic=ssmkhh-10-0-0-com-ibm-etools-mft-doc-ac55710--htm<br>
+        VISOALGT(2016, 14 noviembre). Creación de un Web Service Básico. YouTube. https://www.youtube.com/watch?v=iaCP9iEsNOY<br>
+        Mateu, C. (2004).  Desarrollo de aplicaciones web Haga clic para ver más opciones [versión electrónica]. Recuperado de http://libros.metabiblioteca.org/bitstream/001/591/1/004%20Desarrollo%20de%20aplicaciones%20web.pdf<br>
+
+        ECSDI (2018).  Composición de servicios web Haga clic para ver más opciones [archivo PDF]. Recuperado de http://www.lsi.upc.edu/~bejar/ecsdi/Teoria/ECSDI06b-ComposicionSOA.pdf<br>
+        Jaramillo, A. (2019).  Ingeniería del software basada en componentes. Haga clic para ver más opciones Recuperado de https://prezi.com/phtkqkq2u6dk/ingenieria-del-software-basada-en-componentes/<br>
+
+    </p>
+
+    <hr>
+
+    <p>
+        TECN DE CONST DE SERV WEB<br>
+        Daniel Vega Lopez<br>
+        Universidad del Valle de México | Campus Lomas Verdes<br>
+    </p>
+    <hr width=50%>
 </body>
 </html>
